@@ -10,11 +10,6 @@ export default function Education() {
       place: "Salesianos Las Naves",
       period: "2020 - 2022",
     },
-    {
-      title: "ESO",
-      place: "IES San Juan Evangelista",
-      period: "2013 - 2017",
-    },
   ];
 
   return (

@@ -1,6 +1,15 @@
 export default function Experience() {
   const jobs = [
     {
+      role: "Prácticas de Desarrollo Web y Automatización",
+      company: "Obsequio e Imagen",
+      period: "Mar 2025 - Jun 2025",
+      desc: [
+        "Desarrollo de una página web",
+        "Automatización de procesos internos",
+      ],
+    },
+    {
       role: "Técnico Informático y Desarrollador Web Junior",
       company: "Audiovisuales Fader, San Fernando de Henares",
       period: "Sep 2022 - Mar 2023",
@@ -20,21 +29,12 @@ export default function Experience() {
         "Instalación de sistemas operativos",
       ],
     },
-    {
-      role: "Prácticas de Desarrollo Web y Automatización",
-      company: "Obsequio e Imagen",
-      period: "Mar 2025 - Jun 2025",
-      desc: [
-        "Desarrollo de una página web",
-        "Automatización de procesos internos",
-      ],
-    },
   ];
 
   return (
     <section id="experience" className="pt-16">
       <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 border-b-2 border-indigo-500 pb-2 mb-6">
-        Experiencia Profesional
+        Experiencia Laboral
       </h2>
       <div className="grid gap-6">
         {jobs.map((job, i) => (

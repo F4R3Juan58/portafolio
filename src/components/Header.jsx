@@ -48,7 +48,7 @@ export default function Header() {
         <div className="flex items-center gap-4 ml-4">
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/tuperfil"
+            href="https://www.linkedin.com/in/juan-gallardo-mart%C3%ADn-5469802a1/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"

@@ -4,6 +4,8 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Certifications from "./components/Certifications";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Skills />
         <Experience />
         <Education />
+        <Certifications />
         <Contact />
       </main>
 
