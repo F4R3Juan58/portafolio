@@ -6,8 +6,9 @@ import {
   FaGitAlt,
   FaWindows,
   FaLinux,
+  FaNodeJs,
 } from "react-icons/fa";
-import { SiJavascript, SiFigma } from "react-icons/si";
+import { SiJavascript, SiSpringboot } from "react-icons/si";
 import { RiDatabase2Fill } from "react-icons/ri";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -22,6 +23,8 @@ const items = [
   { icon: <FaGitAlt className="text-orange-500" /> },
   { icon: <FaWindows className="text-sky-600" /> },
   { icon: <FaLinux className="text-gray-800 dark:text-gray-200" /> },
+  { icon: <SiSpringboot className="text-green-500" /> },
+  { icon: <FaNodeJs className="text-green-600" /> },
 ];
 
 export default function Skills() {
