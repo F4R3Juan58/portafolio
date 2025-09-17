@@ -19,6 +19,12 @@ export default function Header() {
             Sobre mí
           </a>
           <a
+            href="#skills"
+            className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+          >
+            Tecnologías
+          </a>
+          <a
             href="#experience"
             className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
           >
@@ -29,12 +35,6 @@ export default function Header() {
             className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
           >
             Educación
-          </a>
-          <a
-            href="#skills"
-            className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
-          >
-            Habilidades
           </a>
           <a
             href="#contact"
